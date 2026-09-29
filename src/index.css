@@ -1,0 +1,13 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #1f2328;
+  background: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  :root { color: #e6edf3; background: #0d1117; }
+}
+main { max-width: 720px; margin: 2rem auto; padding: 0 1rem; }
+.row { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+button { padding: 0.5rem 1rem; border-radius: 6px; border: 1px solid #1f6feb; background: #1f6feb; color: #fff; cursor: pointer; }
+button:disabled { opacity: 0.4; cursor: not-allowed; }
+button.secondary { background: transparent; color: inherit; border-color: currentColor; }
